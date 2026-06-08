@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Phone, MessageCircle, Star } from "lucide-react";
 import { CATEGORIES, SITE, mapsLink, waLink } from "@/lib/site";
+import logoAsset from "@/assets/sports-point-logo.png.asset.json";
 
 export function SiteFooter() {
   return (
@@ -8,10 +9,12 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="grid h-10 w-10 place-items-center rounded-xl bg-accent text-accent-foreground font-display font-extrabold">
-                SP
-              </span>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src={logoAsset.url}
+                alt="Sports Point logo"
+                className="h-12 w-12 object-contain"
+              />
               <span className="font-display font-extrabold text-xl">Sports Point</span>
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
