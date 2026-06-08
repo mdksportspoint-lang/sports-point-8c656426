@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
 import { CATEGORIES, SITE } from "@/lib/site";
+import logoAsset from "@/assets/sports-point-logo.png.asset.json";
 
 const NAV = [
   { to: "/", label: "Home" },
@@ -44,9 +45,11 @@ export function SiteHeader() {
           }`}
         >
           <Link to="/" className="flex items-center gap-2 group">
-            <span className="grid h-9 w-9 place-items-center rounded-xl bg-accent text-accent-foreground font-display font-extrabold shadow-md group-hover:rotate-6 transition-transform">
-              SP
-            </span>
+            <img
+              src={logoAsset.url}
+              alt="Sports Point logo"
+              className="h-11 w-11 object-contain group-hover:scale-110 transition-transform"
+            />
             <span className="font-display font-extrabold text-lg tracking-tight">
               Sports Point
             </span>
