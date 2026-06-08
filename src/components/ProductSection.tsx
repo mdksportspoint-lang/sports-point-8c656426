@@ -1,18 +1,15 @@
 import { MessageCircle } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
 import { waLink } from "@/lib/site";
-import { productImageUrl } from "@/lib/productImages";
 
 export function ProductSection({
   title,
   description,
   products,
-  sport,
 }: {
   title: string;
   description?: string;
   products: string[];
-  sport: string;
 }) {
   return (
     <section className="py-16 sm:py-20">
@@ -40,13 +37,7 @@ export function ProductSection({
                 rel="noreferrer"
                 className="group relative block aspect-[4/5] rounded-2xl overflow-hidden bg-muted border border-border hover:border-accent transition-all hover:-translate-y-1 hover:shadow-elegant"
               >
-                <img
-                  src={productImageUrl(p, sport)}
-                  alt={`${p} — Sports Point`}
-                  loading="lazy"
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary/80" />
                 <div className="absolute top-4 left-4 text-xs font-bold uppercase tracking-wider text-accent drop-shadow">
                   {String(i + 1).padStart(2, "0")}
                 </div>
