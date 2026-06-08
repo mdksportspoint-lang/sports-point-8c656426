@@ -32,24 +32,24 @@ function Cricket() {
         subtitle="From the local maidan to club tournaments — premium cricket gear for every level of the game."
         image={img}
       />
-      <ProductSection
+      <ProductSection sport="cricket"
         title="Bats"
         description="Willow that responds to every shot."
         products={["Cricket Bats", "Tennis Bats", "Practice Bats", "Junior Bats"]}
       />
-      <ProductSection
+      <ProductSection sport="cricket"
         title="Balls & Wickets"
         products={["Cricket Balls", "Tennis Balls", "Season Balls", "Wickets"]}
       />
-      <ProductSection
+      <ProductSection sport="cricket"
         title="Protective Gear"
         products={["Batting Gloves", "Batting Pads", "Helmets", "Thigh Guards"]}
       />
-      <ProductSection
+      <ProductSection sport="cricket"
         title="Footwear & Bags"
         products={["Cricket Shoes", "Spike Shoes", "Kit Bags", "Wheel Bags"]}
       />
-      <ProductSection
+      <ProductSection sport="cricket"
         title="Training & Accessories"
         products={["Practice Equipment", "Stumps & Bails", "Grips & Tapes", "Accessories"]}
       />
