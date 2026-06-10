@@ -397,8 +397,8 @@ function About() {
         <ScrollReveal>
           <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-elegant">
             <img
-              src={storeImg}
-              alt="Inside Sports Point store"
+              src={storeImg.url}
+              alt="Sports Point store — trophy display case in Madukkarai"
               width={1280}
               height={960}
               loading="lazy"
