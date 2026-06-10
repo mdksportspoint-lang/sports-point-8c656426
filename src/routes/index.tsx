@@ -299,7 +299,7 @@ function WhyChoose() {
 function Counters() {
   const stats = [
     { end: 500, suffix: "+", label: "Happy Customers" },
-    { end: 7, suffix: "", label: "Sports Categories" },
+    { end: 50, suffix: "+", label: "Sports Categories" },
     { end: 1000, suffix: "+", label: "Products Stocked" },
     { end: 47, suffix: "/10", label: "Average Rating" },
   ];
