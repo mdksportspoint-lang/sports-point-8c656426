@@ -36,6 +36,15 @@ function Football() {
         subtitle="Match-ready footballs, training gear and goalkeeper essentials for every player on the pitch."
         image={img}
       />
+      <ProductGallery
+        title="Featured Footballs In Store"
+        description="Genuine Nivia footballs currently stocked at Sports Point. Walk in or WhatsApp us for sizes and pricing."
+        items={[
+          { name: "Nivia Classic Vision Size 5", image: ball1.url },
+          { name: "Nivia Super Synthetic Size 5", image: ball2.url },
+          { name: "Nivia Storm Size 5", image: ball3.url },
+        ]}
+      />
       <ProductSection title="Footballs" products={["Match Footballs", "Training Footballs", "Futsal Balls", "Junior Footballs"]} />
       <ProductSection title="Footwear" products={["Football Studs", "Turf Shoes", "Indoor Shoes", "Junior Studs"]} />
       <ProductSection title="Protection" products={["Shin Guards", "Goalkeeper Gloves", "Ankle Supports", "Knee Pads"]} />
