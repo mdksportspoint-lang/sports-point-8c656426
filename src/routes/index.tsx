@@ -94,7 +94,7 @@ function Founder() {
             <div className="relative aspect-square rounded-3xl overflow-hidden shadow-elegant max-w-sm mx-auto">
               <img
                 src={founderAsset.url}
-                alt="Pradeep Senthilkumar — Founder of Sports Point"
+                alt="Pradeep Kumar — Founder of Sports Point"
                 loading="lazy"
                 className="absolute inset-0 h-full w-full object-cover"
               />
