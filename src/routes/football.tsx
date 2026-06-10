@@ -1,8 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CategoryHero } from "@/components/CategoryHero";
 import { ProductSection } from "@/components/ProductSection";
+import { ProductGallery } from "@/components/ProductGallery";
 import { ContactStrip } from "@/components/ContactStrip";
 import img from "@/assets/football.jpg";
+import ball1 from "@/assets/products/football-nivia-green.jpg.asset.json";
+import ball2 from "@/assets/products/football-nivia-yellow.jpg.asset.json";
+import ball3 from "@/assets/products/football-nivia-blue.jpg.asset.json";
 
 export const Route = createFileRoute("/football")({
   head: () => ({
