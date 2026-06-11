@@ -7,7 +7,3 @@ compatibility_flags = ["nodejs_compat"]
 [build]
 command = "npm run build"
 cwd = "."
-
-[env.production]
-name = "sports-point-production"
-route = "spoints-point.pages.dev/*"
