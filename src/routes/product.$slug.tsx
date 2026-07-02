@@ -84,7 +84,7 @@ function ProductPage() {
               <p className="mt-5 text-muted-foreground leading-relaxed">{p.description}</p>
 
               <ul className="mt-6 space-y-2.5">
-                {p.highlights.map((h) => (
+                {p.highlights.map((h: string) => (
                   <li key={h} className="flex items-start gap-2.5 text-sm">
                     <span className="mt-0.5 h-5 w-5 rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0">
                       <Check className="h-3 w-3" />
