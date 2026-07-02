@@ -34,6 +34,11 @@ function Cricket() {
         subtitle="From the local maidan to club tournaments — premium cricket gear for every level of the game."
         image={img}
       />
+      <FeaturedProducts
+        title="Featured Cricket Products"
+        description="Real bats and gear currently available at our Madukkarai store. Tap any product for full photos, details and WhatsApp enquiry."
+        products={productsByCategory("cricket")}
+      />
       <ProductSection
         title="Bats"
         description="Willow that responds to every shot."
