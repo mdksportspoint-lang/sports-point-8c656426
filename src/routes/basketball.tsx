@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CategoryHero } from "@/components/CategoryHero";
-import { ProductSection } from "@/components/ProductSection";
+import { CategoryProducts } from "@/components/CategoryProducts";
 import { ContactStrip } from "@/components/ContactStrip";
 import img from "@/assets/basketball.jpg";
 
@@ -32,9 +32,7 @@ function Basketball() {
         subtitle="Indoor, outdoor, training — basketballs and gear engineered for performance on every court."
         image={img}
       />
-      <ProductSection title="Basketballs" products={["Indoor Basketballs", "Outdoor Basketballs", "Training Basketballs", "Junior Basketballs"]} />
-      <ProductSection title="Footwear" products={["Basketball Shoes", "Training Shoes", "Junior Shoes", "Insoles"]} />
-      <ProductSection title="Training & Accessories" products={["Training Accessories", "Nets", "Cones", "Ball Pumps"]} />
+      <CategoryProducts category="basketball" title="Featured Basketball Products" />
       <ContactStrip />
     </>
   );

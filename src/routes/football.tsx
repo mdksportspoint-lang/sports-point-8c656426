@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CategoryHero } from "@/components/CategoryHero";
-import { ProductSection } from "@/components/ProductSection";
+import { CategoryProducts } from "@/components/CategoryProducts";
 import { ContactStrip } from "@/components/ContactStrip";
 import img from "@/assets/football.jpg";
 
@@ -32,10 +32,7 @@ function Football() {
         subtitle="Match-ready footballs, training gear and goalkeeper essentials for every player on the pitch."
         image={img}
       />
-      <ProductSection title="Footballs" products={["Match Footballs", "Training Footballs", "Futsal Balls", "Junior Footballs"]} />
-      <ProductSection title="Footwear" products={["Football Studs", "Turf Shoes", "Indoor Shoes", "Junior Studs"]} />
-      <ProductSection title="Protection" products={["Shin Guards", "Goalkeeper Gloves", "Ankle Supports", "Knee Pads"]} />
-      <ProductSection title="Training & Team" products={["Training Cones", "Jerseys", "Nets", "Accessories"]} />
+      <CategoryProducts category="football" title="Featured Football Products" />
       <ContactStrip />
     </>
   );
