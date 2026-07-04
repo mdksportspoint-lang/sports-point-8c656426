@@ -9,10 +9,18 @@ import maspro from "@/assets/products/maspro-tennis.jpg.asset.json";
 import turbo from "@/assets/products/turbo-tennis.jpg.asset.json";
 import stumps from "@/assets/products/cricket-stumps.jpg.asset.json";
 
+export type ProductCategory =
+  | "cricket"
+  | "football"
+  | "basketball"
+  | "volleyball"
+  | "badminton"
+  | "indoor-games";
+
 export type Product = {
   slug: string;
   name: string;
-  category: "cricket";
+  category: ProductCategory;
   categoryLabel: string;
   tagline: string;
   description: string;
