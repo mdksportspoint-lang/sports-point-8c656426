@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CategoryHero } from "@/components/CategoryHero";
-import { ProductSection } from "@/components/ProductSection";
+import { CategoryProducts } from "@/components/CategoryProducts";
 import { ContactStrip } from "@/components/ContactStrip";
 import img from "@/assets/badminton.jpg";
 
@@ -32,10 +32,7 @@ function Badminton() {
         subtitle="From recreational to tournament play — rackets and gear that match your level of intent."
         image={img}
       />
-      <ProductSection title="Rackets" products={["Pro Rackets", "Intermediate Rackets", "Beginner Rackets", "Junior Rackets"]} />
-      <ProductSection title="Shuttlecocks" products={["Feather Shuttlecocks", "Nylon Shuttlecocks", "Training Shuttlecocks", "Tournament Shuttles"]} />
-      <ProductSection title="Footwear & Bags" products={["Badminton Shoes", "Court Shoes", "Racket Bags", "Backpacks"]} />
-      <ProductSection title="Accessories" products={["Grip Tapes", "String Reels", "Wristbands", "Accessories"]} />
+      <CategoryProducts category="badminton" title="Featured Badminton Products" />
       <ContactStrip />
     </>
   );

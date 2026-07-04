@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CategoryHero } from "@/components/CategoryHero";
-import { ProductSection } from "@/components/ProductSection";
+import { CategoryProducts } from "@/components/CategoryProducts";
 import { ContactStrip } from "@/components/ContactStrip";
 import img from "@/assets/volleyball.jpg";
 
@@ -32,9 +32,7 @@ function Volleyball() {
         subtitle="Tournament-grade volleyballs, nets and support gear to keep you spiking through the match."
         image={img}
       />
-      <ProductSection title="Volleyballs" products={["Match Volleyballs", "Training Volleyballs", "Beach Volleyballs", "Junior Volleyballs"]} />
-      <ProductSection title="Court & Nets" products={["Nets", "Antennas", "Boundary Lines", "Posts"]} />
-      <ProductSection title="Protection & Training" products={["Knee Supports", "Ankle Braces", "Training Equipment", "Accessories"]} />
+      <CategoryProducts category="volleyball" title="Featured Volleyball Products" />
       <ContactStrip />
     </>
   );
