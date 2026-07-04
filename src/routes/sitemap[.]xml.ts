@@ -8,6 +8,7 @@ const PATHS = [
   "/volleyball",
   "/badminton",
   "/indoor-games",
+  "/team-jerseys",
   "/contact",
 ];
 
