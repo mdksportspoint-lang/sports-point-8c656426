@@ -222,6 +222,88 @@ function TrustBar() {
   );
 }
 
+function JerseyPromo() {
+  const quote = waLink(
+    "Hi Sports Point! I'd like a quote for custom team jerseys. Sport: , Quantity: , Design idea: "
+  );
+
+  return (
+    <section id="jerseys" className="py-16 sm:py-20 bg-muted/40">
+      <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <ScrollReveal>
+          <div>
+            <span className="text-xs font-bold uppercase tracking-wider text-accent">
+              Custom Team Wear
+            </span>
+            <h2 className="mt-3 font-display font-extrabold text-4xl sm:text-5xl text-balance">
+              Custom Team Jerseys
+            </h2>
+            <p className="mt-4 text-muted-foreground text-lg">
+              Premium sublimation jerseys for football, cricket, volleyball, basketball, kabaddi and
+              more. Fully customizable with team names, player names, numbers, logos and sponsor
+              branding.
+            </p>
+            <ul className="mt-6 space-y-3">
+              {[
+                "Sublimation print — front, back, sleeves",
+                "Names, numbers & team logo included",
+                "Lightweight, breathable match-day fabric",
+                "Starting at ₹600 — minimum 10 jerseys",
+              ].map((t) => (
+                <li key={t} className="flex items-start gap-3 text-sm text-muted-foreground">
+                  <span className="mt-0.5 h-5 w-5 rounded-full bg-accent/10 text-accent grid place-items-center shrink-0">
+                    <BadgeCheck className="h-3 w-3" />
+                  </span>
+                  {t}
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a
+                href={quote}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-accent text-accent-foreground font-semibold shadow-glow hover:scale-105 transition-transform"
+              >
+                <MessageCircle className="h-4 w-4" />
+                Get a Quote
+              </a>
+              <Link
+                to="/team-jerseys"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
+              >
+                View Jersey Service
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal delay={120}>
+          <div className="relative rounded-3xl overflow-hidden shadow-elegant bg-primary text-primary-foreground">
+            <div className="relative aspect-[4/3]">
+              <img
+                src={teamJerseysHero.url}
+                alt="Custom sublimation team jerseys printed for local football and cricket teams"
+                loading="lazy"
+                className="absolute inset-0 h-full w-full object-cover opacity-80"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/60 to-transparent" />
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+              <div className="text-xs uppercase tracking-wider text-accent font-bold">Starting from</div>
+              <div className="mt-1 font-display font-extrabold text-4xl sm:text-5xl">₹600</div>
+              <div className="mt-1 text-sm text-primary-foreground/80">
+                per jersey · minimum 10 members per team
+              </div>
+            </div>
+          </div>
+        </ScrollReveal>
+      </div>
+    </section>
+  );
+}
+
 function Categories() {
   return (
     <section id="categories" className="py-20 sm:py-28">
