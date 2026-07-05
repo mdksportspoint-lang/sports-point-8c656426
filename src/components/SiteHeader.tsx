@@ -56,14 +56,14 @@ export function SiteHeader() {
             </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden md:flex items-center gap-0.5 xl:gap-1">
             {NAV.map((n) => (
               <Link
                 key={n.to}
                 to={n.to}
                 activeProps={{ className: "text-accent" }}
                 activeOptions={{ exact: n.to === "/" }}
-                className="px-3 py-2 text-sm font-medium text-foreground/80 hover:text-accent transition-colors"
+                className="px-2 xl:px-3 py-2 text-sm font-medium text-foreground/80 hover:text-accent transition-colors whitespace-nowrap"
               >
                 {n.label}
               </Link>
@@ -81,7 +81,7 @@ export function SiteHeader() {
             <button
               aria-label="Toggle menu"
               onClick={() => setOpen((s) => !s)}
-              className="lg:hidden grid place-items-center h-10 w-10 rounded-xl glass"
+              className="md:hidden grid place-items-center h-10 w-10 rounded-xl glass"
             >
               {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
@@ -90,7 +90,7 @@ export function SiteHeader() {
       </div>
 
       {open && (
-        <div className="lg:hidden fixed inset-0 top-[72px] z-40 bg-background/95 backdrop-blur-xl">
+        <div className="md:hidden fixed inset-0 top-[72px] z-40 bg-background/95 backdrop-blur-xl">
           <div className="px-6 py-8 space-y-1">
             {NAV.map((n) => (
               <Link
