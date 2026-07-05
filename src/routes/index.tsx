@@ -4,6 +4,7 @@ import { useState } from "react";
 import heroImg from "@/assets/hero.jpg";
 import storeImg from "@/assets/store.jpg";
 import founderAsset from "@/assets/founder.jpg.asset.json";
+import teamJerseysHero from "@/assets/team-jerseys-hero.jpg.asset.json";
 import { CATEGORIES, SITE, waLink } from "@/lib/site";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
