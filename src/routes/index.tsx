@@ -76,6 +76,7 @@ function Home() {
       <Hero />
       <TrustBar />
       <Categories />
+      <JerseyPromo />
       <WhyChoose />
       <Counters />
       <Founder />
