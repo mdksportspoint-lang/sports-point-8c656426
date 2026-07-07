@@ -16,6 +16,14 @@ import niviaTrainer from "@/assets/products/nivia-trainer.jpg.asset.json";
 import niviaSuperSynthetic from "@/assets/products/nivia-super-synthetic.jpg.asset.json";
 import niviaBlueYellow from "@/assets/products/nivia-blue-yellow.jpg.asset.json";
 import niviaClassicVision from "@/assets/products/nivia-classic-vision.jpg.asset.json";
+import chessFoldable from "@/assets/products/chess-magnetic-foldable.jpg.asset.json";
+import chessPieces from "@/assets/products/chess-tournament-pieces.jpg.asset.json";
+import chessClock from "@/assets/products/chess-dgt-clock.jpg.asset.json";
+import chessBag from "@/assets/products/chess-carry-bag.jpg.asset.json";
+import carromBoard from "@/assets/products/carrom-board-tournament.jpg.asset.json";
+import carromCoins from "@/assets/products/carrom-wooden-coins.jpg.asset.json";
+import carromStrikers from "@/assets/products/carrom-designer-strikers.jpg.asset.json";
+import carromPowder from "@/assets/products/carrom-powder.jpg.asset.json";
 
 export type ProductCategory =
   | "cricket"
@@ -23,7 +31,10 @@ export type ProductCategory =
   | "basketball"
   | "volleyball"
   | "badminton"
+  | "chess"
+  | "carrom"
   | "indoor-games";
+
 
 export type Product = {
   slug: string;
