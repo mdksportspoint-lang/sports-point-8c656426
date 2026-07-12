@@ -24,6 +24,11 @@ import carromBoard from "@/assets/products/carrom-board-tournament.jpg.asset.jso
 import carromCoins from "@/assets/products/carrom-wooden-coins.jpg.asset.json";
 import carromStrikers from "@/assets/products/carrom-designer-strikers.jpg.asset.json";
 import carromPowder from "@/assets/products/carrom-powder.jpg.asset.json";
+import spaldingRebound from "@/assets/products/spalding-rebound.jpg.asset.json";
+import coscoDribble from "@/assets/products/cosco-dribble.jpg.asset.json";
+import niviaEngraver from "@/assets/products/nivia-engraver.jpg.asset.json";
+import niviaRebounder from "@/assets/products/nivia-rebounder.jpg.asset.json";
+import boldfitSwishking from "@/assets/products/boldfit-swishking.jpg.asset.json";
 
 export type ProductCategory =
   | "cricket"
