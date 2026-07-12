@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "asset_root": "/lovable-assets",
+  "assets": [
+    {
+      "name": "boldfit-swishking.jpg",
+      "url": "/lovable-assets/79456b4a-1912-4154-95cd-9f66ad6e0100/boldfit-swishking.jpg",
+      "width": 850,
+      "height": 830,
+      "size": 192580,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "bull-beast-power-1.jpg",
+      "url": "/lovable-assets/a0f74a77-64b4-4292-8993-d39459921634/bull-beast-power-1.jpg",
+      "width": 680,
+      "height": 861,
+      "size": 192598,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "bull-beast-power-2.jpg",
+      "url": "/lovable-assets/afd9fb6d-76c6-40cb-91bc-1471c22350a6/bull-beast-power-2.jpg",
+      "width": 573,
+      "height": 861,
+      "size": 191540,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "carrom-board-tournament.jpg",
+      "url": "/lovable-assets/300b8dce-f31e-40ac-8982-af62c100439e/carrom-board-tournament.jpg",
+      "width": 997,
+      "height": 1164,
+      "size": 325379,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "carrom-designer-strikers.jpg",
+      "url": "/lovable-assets/b2c970c3-c2f0-4fa2-aa2c-c2d72f671c6f/carrom-designer-strikers.jpg",
+      "width": 973,
+      "height": 712,
+      "size": 596906,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "carrom-powder.jpg",
+      "url": "/lovable-assets/4c33ed1f-bfb2-4a0a-ac10-a7fc2664cf89/carrom-powder.jpg",
+      "width": 983,
+      "height": 502,
+      "size": 102414,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "carrom-wooden-coins.jpg",
+      "url": "/lovable-assets/9e5f31d3-bb15-47e5-8ff7-803acf3dd415/carrom-wooden-coins.jpg",
+      "width": 986,
+      "height": 825,
+      "size": 369462,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "chess-carry-bag.jpg",
+      "url": "/lovable-assets/673f0a02-3185-400a-b389-921a6a4e8735/chess-carry-bag.jpg",
+      "width": 1080,
+      "height": 741,
+      "size": 288572,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "chess-dgt-clock.jpg",
+      "url": "/lovable-assets/d3e35c36-8647-4a73-a6e1-831b8e509308/chess-dgt-clock.jpg",
+      "width": 1080,
+      "height": 687,
+      "size": 244080,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "chess-magnetic-foldable.jpg",
+      "url": "/lovable-assets/942ea4ca-e9e6-491e-81bd-5be9b4103e7f/chess-magnetic-foldable.jpg",
+      "width": 997,
+      "height": 1183,
+      "size": 401015,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "chess-tournament-pieces.jpg",
+      "url": "/lovable-assets/12f3115a-3424-492d-b3c2-ec4133cc4668/chess-tournament-pieces.jpg",
+      "width": 1078,
+      "height": 856,
+      "size": 366456,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "cosco-b18.jpg",
+      "url": "/lovable-assets/65118c63-8fcd-4588-93c0-2a2047002a4a/cosco-b18.jpg",
+      "width": 822,
+      "height": 846,
+      "size": 117160,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "cosco-berlin.jpg",
+      "url": "/lovable-assets/37592d4d-dc10-4c6b-81c8-ae77631484c9/cosco-berlin.jpg",
+      "width": 858,
+      "height": 852,
+      "size": 145916,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "cosco-dribble.jpg",
+      "url": "/lovable-assets/ebc3acd0-fda2-4c19-a677-7a52615a0a57/cosco-dribble.jpg",
+      "width": 872,
+      "height": 904,
+      "size": 228737,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "cosco-milano.jpg",
+      "url": "/lovable-assets/018c1114-b62e-4408-9ca0-fc8f4db936d5/cosco-milano.jpg",
+      "width": 832,
+      "height": 828,
+      "size": 188107,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "cricket-stumps.jpg",
+      "url": "/lovable-assets/1c0028fe-2e27-459f-8e48-1dccbfba18d6/cricket-stumps.jpg",
+      "width": 577,
+      "height": 1280,
+      "size": 62911,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "dsc-lava-orange.jpg",
+      "url": "/lovable-assets/4425ceaa-633f-46aa-83e9-87f8ebbd7f22/dsc-lava-orange.jpg",
+      "width": 440,
+      "height": 874,
+      "size": 53380,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "dsc-lava-red.jpg",
+      "url": "/lovable-assets/9969bdc5-6cd9-4698-92ea-15f5736d5c08/dsc-lava-red.jpg",
+      "width": 411,
+      "height": 878,
+      "size": 51390,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "maspro-tennis.jpg",
+      "url": "/lovable-assets/5818783e-1913-4728-b9fa-fe993c293952/maspro-tennis.jpg",
+      "width": 1280,
+      "height": 720,
+      "size": 144632,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "nivia-blue-yellow.jpg",
+      "url": "/lovable-assets/3379f929-e8c2-4f18-873e-add05dd3e2c1/nivia-blue-yellow.jpg",
+      "width": 1600,
+      "height": 1600,
+      "size": 172660,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "nivia-classic-vision.jpg",
+      "url": "/lovable-assets/9091b99d-d3f3-4a96-8d02-3b7eba1d31b0/nivia-classic-vision.jpg",
+      "width": 1600,
+      "height": 1600,
+      "size": 96752,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "nivia-engraver.jpg",
+      "url": "/lovable-assets/42deff49-00d6-4384-b65c-e8361fbf7a13/nivia-engraver.jpg",
+      "width": 820,
+      "height": 846,
+      "size": 264142,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "nivia-rebounder.jpg",
+      "url": "/lovable-assets/2f9110f1-3824-4cf8-9b24-8f257911c99d/nivia-rebounder.jpg",
+      "width": 829,
+      "height": 822,
+      "size": 196056,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "nivia-super-synthetic.jpg",
+      "url": "/lovable-assets/5be8a691-f2fa-46cf-80c0-6e6eaa570d2a/nivia-super-synthetic.jpg",
+      "width": 1600,
+      "height": 1600,
+      "size": 149775,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "nivia-trainer.jpg",
+      "url": "/lovable-assets/26983462-5748-403e-8080-1373206241f8/nivia-trainer.jpg",
+      "width": 470,
+      "height": 473,
+      "size": 197382,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "novax-bahubali.jpg",
+      "url": "/lovable-assets/d9d6f6b5-7fe7-442e-a4d4-69c46313eee5/novax-bahubali.jpg",
+      "width": 486,
+      "height": 827,
+      "size": 207985,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "shining-star.jpg",
+      "url": "/lovable-assets/65717bcf-b30b-43ab-8fa0-294e9a306cd7/shining-star.jpg",
+      "width": 1015,
+      "height": 537,
+      "size": 300856,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "spalding-rebound.jpg",
+      "url": "/lovable-assets/1a0c2b2a-dea6-42d0-a051-2dac6f0a9582/spalding-rebound.jpg",
+      "width": 862,
+      "height": 832,
+      "size": 250021,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "ss-kashmir-green.jpg",
+      "url": "/lovable-assets/65290430-5373-4077-af04-f24672ae514c/ss-kashmir-green.jpg",
+      "width": 578,
+      "height": 806,
+      "size": 60071,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "ss-kashmir-yellow.jpg",
+      "url": "/lovable-assets/95f51581-0e6a-49aa-bb6f-4bece077088c/ss-kashmir-yellow.jpg",
+      "width": 396,
+      "height": 852,
+      "size": 53041,
+      "content_type": "image/jpeg"
+    },
+    {
+      "name": "turbo-tennis.jpg",
+      "url": "/lovable-assets/3e1b9bc2-b691-4801-8345-617cafdf1617/turbo-tennis.jpg",
+      "width": 1280,
+      "height": 720,
+      "size": 113504,
+      "content_type": "image/jpeg"
+    }
+  ]
+}
