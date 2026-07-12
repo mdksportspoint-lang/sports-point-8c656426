@@ -437,6 +437,86 @@ export const PRODUCTS: Product[] = [
     ],
     images: [carromPowder.url],
   },
+  {
+    slug: "spalding-rebound-basketball",
+    name: "Spalding Rebound Basketball",
+    category: "basketball",
+    categoryLabel: "Basketballs",
+    tagline: "Iconic Spalding grip for outdoor courts.",
+    description:
+      "The Spalding Rebound is a durable rubber basketball built for outdoor play. Deep-channel design and reliable grip make it a go-to ball for schools, clubs and street courts.",
+    highlights: [
+      "Durable rubber cover",
+      "Deep-channel grip",
+      "Built for outdoor courts",
+      "Official size & weight",
+    ],
+    images: [spaldingRebound.url],
+  },
+  {
+    slug: "cosco-dribble-basketball",
+    name: "Cosco Dribble Basketball",
+    category: "basketball",
+    categoryLabel: "Basketballs",
+    tagline: "BFI-approved total grip control.",
+    description:
+      "The Cosco Dribble is a BFI-approved basketball with nylon wound construction and a butyl bladder for consistent bounce. Official size and weight — perfect for all playing surfaces.",
+    highlights: [
+      "BFI approved",
+      "Nylon wound + butyl bladder",
+      "Total grip control",
+      "All-surface performance",
+    ],
+    images: [coscoDribble.url],
+  },
+  {
+    slug: "nivia-engraver-basketball",
+    name: "Nivia Engraver Basketball",
+    category: "basketball",
+    categoryLabel: "Basketballs",
+    tagline: "Classic tan finish with premium feel.",
+    description:
+      "The Nivia Engraver features a rich tan pebbled surface with bold branding for excellent grip and control. A trusted match-ready ball for players of every level.",
+    highlights: [
+      "Premium pebbled grip",
+      "Consistent bounce",
+      "Match-ready size",
+      "Trusted Nivia quality",
+    ],
+    images: [niviaEngraver.url],
+  },
+  {
+    slug: "nivia-rebounder-basketball",
+    name: "Nivia Rebounder Basketball",
+    category: "basketball",
+    categoryLabel: "Basketballs",
+    tagline: "Bold black & gold Size 7 basketball.",
+    description:
+      "The Nivia Rebounder in a striking black and gold finish. Size 7 rubber build with deep grooves for excellent handling on outdoor and indoor courts.",
+    highlights: [
+      "Striking black & gold design",
+      "Size 7 official",
+      "Deep-groove handling",
+      "Indoor & outdoor ready",
+    ],
+    images: [niviaRebounder.url],
+  },
+  {
+    slug: "boldfit-swishking-basketball",
+    name: "Boldfit Swishking Basketball",
+    category: "basketball",
+    categoryLabel: "Basketballs",
+    tagline: "Two-tone Swishking with free hand pump.",
+    description:
+      "The Boldfit Swishking is a two-tone tan and cream basketball with excellent grip and a durable rubber build. Comes with a free hand pump for on-the-go inflation.",
+    highlights: [
+      "Two-tone premium look",
+      "Includes free hand pump",
+      "Durable rubber cover",
+      "Great grip & bounce",
+    ],
+    images: [boldfitSwishking.url],
+  },
 ];
 
 
