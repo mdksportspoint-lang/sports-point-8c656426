@@ -29,6 +29,12 @@ import coscoDribble from "@/assets/products/cosco-dribble.jpg.asset.json";
 import niviaEngraver from "@/assets/products/nivia-engraver.jpg.asset.json";
 import niviaRebounder from "@/assets/products/nivia-rebounder.jpg.asset.json";
 import boldfitSwishking from "@/assets/products/boldfit-swishking.jpg.asset.json";
+import liningRed from "@/assets/products/lining-red-racket.jpg.asset.json";
+import yonexNanorayBlue from "@/assets/products/yonex-nanoray-blue.jpg.asset.json";
+import yonexZrRedBlue from "@/assets/products/yonex-zr-red-blue.jpg.asset.json";
+import yonexVoltricRed from "@/assets/products/yonex-voltric-red.jpg.asset.json";
+import yonexNanoray6000i from "@/assets/products/yonex-nanoray-6000i.jpg.asset.json";
+import yonexNanorayLight18i from "@/assets/products/yonex-nanoray-light-18i.jpg.asset.json";
 
 export type ProductCategory =
   | "cricket"
@@ -516,6 +522,102 @@ export const PRODUCTS: Product[] = [
       "Great grip & bounce",
     ],
     images: [boldfitSwishking.url],
+  },
+  {
+    slug: "lining-badminton-racket-red",
+    name: "Li-Ning Smash Series Badminton Racket",
+    category: "badminton",
+    categoryLabel: "Badminton Rackets",
+    tagline: "Bold red Li-Ning racket for aggressive smashers.",
+    description:
+      "A stylish Li-Ning badminton racket in a striking red and black finish. Balanced head-heavy feel for powerful smashes and controlled defence — perfect for club players and intermediate enthusiasts.",
+    highlights: [
+      "Head-heavy for smash power",
+      "Durable alloy frame",
+      "Comfortable PU grip",
+      "Pre-strung, ready to play",
+    ],
+    images: [liningRed.url],
+  },
+  {
+    slug: "yonex-nanoray-blue-badminton-racket",
+    name: "Yonex Nanoray Blue Badminton Racket",
+    category: "badminton",
+    categoryLabel: "Badminton Rackets",
+    tagline: "Fast, aerodynamic Nanoray for lightning-quick play.",
+    description:
+      "The Yonex Nanoray in a vibrant blue and black finish is built for speed. Aerodynamic frame and lightweight balance help you attack fast and recover faster — an all-rounder for club and tournament play.",
+    highlights: [
+      "Aerodynamic Nanoray frame",
+      "Lightweight, fast swing",
+      "Excellent control",
+      "Pre-strung with premium grip",
+    ],
+    images: [yonexNanorayBlue.url],
+  },
+  {
+    slug: "yonex-zr-red-blue-badminton-racket",
+    name: "Yonex ZR Series Badminton Racket — Red & Blue",
+    category: "badminton",
+    categoryLabel: "Badminton Rackets",
+    tagline: "Durable Yonex ZR — powerful all-round performance.",
+    description:
+      "The Yonex ZR Series in a bold red frame with a blue handle. Steel shaft and aluminium head deliver robust durability with a satisfying feel — a great choice for beginners and daily players.",
+    highlights: [
+      "Aluminium head + steel shaft",
+      "Balanced power & control",
+      "Cushioned Yonex grip",
+      "Pre-strung, tournament ready",
+    ],
+    images: [yonexZrRedBlue.url],
+  },
+  {
+    slug: "yonex-voltric-red-badminton-racket",
+    name: "Yonex Voltric Badminton Racket",
+    category: "badminton",
+    categoryLabel: "Badminton Rackets",
+    tagline: "Explosive Voltric power for attacking players.",
+    description:
+      "The Yonex Voltric is designed for players who love to attack. Its head-heavy profile stores extra weight for devastating smashes without compromising manoeuvrability.",
+    highlights: [
+      "Head-heavy Voltric build",
+      "Ideal for smash-focused play",
+      "High-tension stringing",
+      "Premium finish & feel",
+    ],
+    images: [yonexVoltricRed.url],
+  },
+  {
+    slug: "yonex-nanoray-6000i-badminton-racket",
+    name: "Yonex Nanoray 6000i Badminton Racket",
+    category: "badminton",
+    categoryLabel: "Badminton Rackets",
+    tagline: "The classic Nanoray 6000i — trusted all-rounder.",
+    description:
+      "The Yonex Nanoray 6000i is one of the most trusted badminton rackets in India. Isometric head shape gives a larger sweet spot, while the balanced feel makes it perfect for both attack and defence.",
+    highlights: [
+      "Isometric head shape",
+      "Balanced weight distribution",
+      "Larger sweet spot",
+      "Recommended for all levels",
+    ],
+    images: [yonexNanoray6000i.url],
+  },
+  {
+    slug: "yonex-nanoray-light-18i-badminton-racket",
+    name: "Yonex Nanoray Light 18i Badminton Racket",
+    category: "badminton",
+    categoryLabel: "Badminton Rackets",
+    tagline: "Ultra-light 18i for fast, effortless swings.",
+    description:
+      "The Yonex Nanoray Light 18i is an ultra-lightweight racket with a slim aerodynamic frame. Effortless swing speed and quick response — perfect for players who prioritise agility and control.",
+    highlights: [
+      "Ultra-lightweight construction",
+      "Aerodynamic slim frame",
+      "Fast swing & quick response",
+      "Comfortable grip for long play",
+    ],
+    images: [yonexNanorayLight18i.url],
   },
 ];
 
