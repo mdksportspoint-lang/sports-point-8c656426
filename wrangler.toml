@@ -1,4 +1,4 @@
-name = "sports-point"
+name = "sports-point-8c656426"
 type = "service"
 main = "dist/server/index.js"
 compatibility_date = "2024-01-01"
