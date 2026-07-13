@@ -29,6 +29,12 @@ import coscoDribble from "@/assets/products/cosco-dribble.jpg.asset.json";
 import niviaEngraver from "@/assets/products/nivia-engraver.jpg.asset.json";
 import niviaRebounder from "@/assets/products/nivia-rebounder.jpg.asset.json";
 import boldfitSwishking from "@/assets/products/boldfit-swishking.jpg.asset.json";
+import liningRed from "@/assets/products/lining-red-racket.jpg.asset.json";
+import yonexNanorayBlue from "@/assets/products/yonex-nanoray-blue.jpg.asset.json";
+import yonexZrRedBlue from "@/assets/products/yonex-zr-red-blue.jpg.asset.json";
+import yonexVoltricRed from "@/assets/products/yonex-voltric-red.jpg.asset.json";
+import yonexNanoray6000i from "@/assets/products/yonex-nanoray-6000i.jpg.asset.json";
+import yonexNanorayLight18i from "@/assets/products/yonex-nanoray-light-18i.jpg.asset.json";
 
 export type ProductCategory =
   | "cricket"
