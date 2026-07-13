@@ -46,7 +46,10 @@ export const Route = createFileRoute("/product/$slug")({
 
 function ProductPage() {
   const { product: p } = Route.useLoaderData();
-  const message = `Hi, I'm interested in the ${p.name}. Please share more details.`;
+  const productUrl =
+    (typeof window !== "undefined" ? window.location.origin : "https://sports-point.lovable.app") +
+    `/product/${p.slug}`;
+  const message = `Hi Sports Point! 👋\n\nI'm interested in this product.\n\nProduct Name: ${p.name}\n\nProduct Link: ${productUrl}\n\nPlease share the price, available sizes/variants, and stock availability.\n\nThank you!`;
   const related = PRODUCTS.filter((x) => x.category === p.category && x.slug !== p.slug).slice(0, 4);
 
   return (
